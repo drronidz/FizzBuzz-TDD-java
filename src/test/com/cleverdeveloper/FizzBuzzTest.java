@@ -25,5 +25,10 @@ class FizzBuzzTest {
         assertEquals("2", new FizzBuzz().generate(2));
     }
 
+    @Test
+    public void shouldReturnFizzIfNumberIs3() {
+        assertEquals("Fizz", new FizzBuzz().generate(3));
+    }
+
 
 }

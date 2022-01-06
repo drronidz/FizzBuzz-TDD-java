@@ -15,6 +15,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class FizzBuzz {
 
     public String generate(int number) {
+        if (number == 3)
+            return "Fizz";
         return String.valueOf(number);
     }
 
